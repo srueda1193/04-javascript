@@ -1,4 +1,4 @@
-class User {
+export class User {
 
     username; //string
     email; //string
@@ -20,7 +20,7 @@ class User {
 
 }
 
-class Flat {
+export class Flat {
 
     city; //string
     streetName; //String
@@ -41,6 +41,5 @@ class Flat {
         this.rentPrice = rentPrice;
         this.dateAvailable = dateAvailable;
     }
-
 
 }
